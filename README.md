@@ -1,2 +1,2 @@
 # Verificador-idade
-Identifies how old are you and attach a related picture.
+Identifies how old you are and attach a related picture.
