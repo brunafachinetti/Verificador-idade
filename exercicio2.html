@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 2</title>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:200i,300,400&display=swap" rel="stylesheet">
+    <link href="estilo.css" rel="stylesheet">
+</head>
+<body onload="carregar()">
+    
+    <h1>Verificador de idade</h1>
+    
+    <div id="conteudo">
+        <p>Ano de nascimento: <input type="number" name="ano_nasc" id="ano_nasc" min="1800"></p>
+        <p>Sexo: 
+            <input type="radio" name="sexo" id="homem" value="homem">
+            <label for="homem">Masculino</label>
+            <input type="radio" name="sexo" id="mulher" value="mulher">
+            <label for="mulher">Feminino</label>
+        </p>
+        <p>
+            <input type="button" value="Verificar" onclick="verificar()">
+        </p>
+        <div id="resultado">
+            Preencha os dados acima para ver o resultado.
+        </div>
+        <div>
+            
+        </div>
+    </div>   
+    
+        <footer>
+            &copy; Exercicio do Curso em Video
+        </footer>
+        <script src="index.js"></script>
+</body>
+</html>
